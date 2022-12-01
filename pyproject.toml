@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "Homework_2.2"
+version = "0.1.0"
+description = "Homework_2.2"
+authors = ["SSP0d <spodkopay@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11"
+colorama = "^0.4.6"
+greenlet = "^2.0.1"
+sqlalchemy = "^1.4.44"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
